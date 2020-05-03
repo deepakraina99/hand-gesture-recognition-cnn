@@ -1,22 +1,20 @@
 
-# Adaptive Slicing Procedure for Layered Manufacturing
-For controlling the accuracy of the model and for reducing the staircase effect, Adaptive slicing needs to be performed. In this procedure, the user can specify a maximum allowable cusp height for the object. Then, the layer thicknesses are computed based on the surface geometry and the prescribed cusp height. The basic principle of adaptive slicing is to evaluate local surface geometries to determine the build layer thickness that can be used while maintaining a user-defined surface tolerance, usually measured by the cusp height
-For more info, please refer this [presentation](https://github.com/deepakraina99/ALS-GCodes-Generation_CAM/blob/master/src/Presentation_ALS.pdf)
+# Hand gesture-based control of Music Player using Convolutional Neural Network (CNN)
+In this assignment, convolutional neural network of 5 layers is trained for recognizing 4 classes of hand-gestures direction. These classes are - Next, Previous, Stop, None.
 
-> This work has been done as part of Computer Aided Manufacturing (CAM)
-> course at IIT Jodhpur.
+For more info, please refer this [assignment](https://github.com/deepakraina99/PhD-Course-Projects-IITD/blob/master/Computer-Vision-COL780/Hand-gesture-recognition-cnn/Assignment4.pdf), [report](https://github.com/deepakraina99/PhD-Course-Projects-IITD/blob/master/Computer-Vision-COL780/Hand-gesture-recognition-cnn/Report.pdf)
 
-#### System Specs:
-- Windows/Ubuntu OS (32/64 bits)
-- MATLAB R2016a or higher
+> This work has been done as part of Computer Vision
+> course at IIT Delhi.
+
 # How to run the code?
 #### Steps:
-**1.** Run the *run_me.m* file.
 
-**2.** Enter the parametric equation of curvature. eg. for ellipse, *x=a.cos(theta), y=b.cos(theta)*
+**1.** Without Media player integration
+ 
+ *python test.py*
+ 
+**2.** With media player integration (requires few media .mp3 files in the current directory)
 
-**3.** Specify the minimum and maximum layer thickness depending upon the capabilities of the rapid prototyping machine.
+*python vlctest.py*
 
-**4.** The MATLAB Program will perform adaptive layer slicing on a given curvature.
-
-**5.** The G-code file as *gcode.txt* will be generated in the end that can be fed to the machine for printing the part.
