@@ -12,9 +12,9 @@ For more info, please refer this [assignment](https://github.com/deepakraina99/P
 
 **1.** Without Media player integration
  ```sh
- python test.py*
+ python test.py
  ```
 **2.** With media player integration (requires few media .mp3 files in the current directory)
 ```sh
-python vlctest.py*
+python vlctest.py
 ```
