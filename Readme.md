@@ -2,7 +2,7 @@
 # Hand gesture-based control of Music Player using Convolutional Neural Network (CNN)
 In this assignment, convolutional neural network of 5 layers is trained for recognizing 4 classes of hand-gestures direction. These classes are - Next, Previous, Stop, None.
 
-For more info, please refer this [assignment](https://github.com/deepakraina99/PhD-Course-Projects-IITD/blob/master/Computer-Vision-COL780/Hand-gesture-recognition-cnn/Assignment4.pdf), [report](https://github.com/deepakraina99/PhD-Course-Projects-IITD/blob/master/Computer-Vision-COL780/Hand-gesture-recognition-cnn/Report.pdf)
+For more info, please refer this [assignment](https://github.com/deepakraina99/PhD-Course-Projects-IITD/blob/master/Computer-Vision-COL780/Hand-gesture-recognition-cnn/Assignment4.pdf), [report](https://github.com/deepakraina99/PhD-Course-Projects-IITD/blob/master/Computer-Vision-COL780/Hand-gesture-recognition-cnn/Report.pdf), [video](https://youtu.be/mCKjxzbZCpE)
 
 > This work has been done as part of Computer Vision
 > course at IIT Delhi.
